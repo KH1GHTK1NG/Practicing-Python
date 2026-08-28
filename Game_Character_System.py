@@ -31,6 +31,13 @@ class Character:
         else:
             print(f"{self.name} has not learned {ability} yet.")
 
+    def attack(self, enemy):
+        if isinstance(enemy, Enemy):
+            enemy.health -= 10
+            print(f"{self.name} attacks {enemy.name} for 10 damage!")
+        else:
+            print("Invalid target.")
+
     def show_stats(self):
         print(f"Name: {self.name}")
         print(f"Level: {self.level}")
@@ -39,6 +46,12 @@ class Character:
         print(f"Experience: {self.experience}")
         print("Inventory: ", self.inventory)
         print("Abilities: ", self.abilities)
+
+class Enemy:
+    def __init__(self, name, health, damage):
+        self.name = name
+        self.health = health
+        self.damage = damage
 
 player = Character("Knight")
 player.show_stats()
