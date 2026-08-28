@@ -27,5 +27,7 @@ data['test'] = True
 new_json = json.dumps(data, indent=4, sort_keys=True)
 print(new_json) """
 
-with open("data.json", "r"):
-        pass
+with open("data.json", "r") as f:
+        data = json.load(f)
+
+print(data)
