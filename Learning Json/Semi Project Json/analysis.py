@@ -6,6 +6,7 @@ with open("Learning Json\Semi Project Json\catalog.json", "r") as file:
 
 #for product in catalog["product"]:
 #   print(product.get("sale_price"))
+catalog["product"][0].get("size").append("extra large")
 
 with open("Learning Json\Semi Project Json\catalog.json", "w") as file:
     json.dump(catalog, file, indent=2)
