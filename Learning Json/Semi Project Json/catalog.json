@@ -1,0 +1,25 @@
+{
+  "product": [
+    {
+      "name": "Matcha",
+      "price": 100,
+      "inStock": true,
+      "sale_price": 8.99,
+      "sizes": [
+        "small",
+        "medium",
+        "large"
+      ]
+    },
+    {
+      "name": "Black Tea",
+      "price": 90,
+      "inStock": false,
+      "sale_price": null,
+      "sizes": [
+        "small",
+        "large"
+      ]
+    }
+  ]
+}
