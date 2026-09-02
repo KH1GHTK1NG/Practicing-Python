@@ -21,6 +21,7 @@ class TO_DO():
             json.dump(self.tasks, file)
 
     def add_task(self):
+        
         task = input("Enter a new task: ")
         self.tasks.append({"task": task, "completed": False})
         self.save_tasks()
