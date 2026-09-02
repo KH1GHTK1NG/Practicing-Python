@@ -1,0 +1,47 @@
+[
+    {
+        "coord": {
+            "lon": -99.2506,
+            "lat": 31.2504
+        },
+        "weather": [
+            {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+            }
+        ],
+        "base": "stations",
+        "main": {
+            "temp": 300.12,
+            "feels_like": 301.26,
+            "temp_min": 300.12,
+            "temp_max": 304.62,
+            "pressure": 1016,
+            "humidity": 61,
+            "sea_level": 1016,
+            "grnd_level": 957
+        },
+        "visibility": 10000,
+        "wind": {
+            "speed": 3.6,
+            "deg": 220
+        },
+        "clouds": {
+            "all": 0
+        },
+        "dt": 1788359666,
+        "sys": {
+            "type": 1,
+            "id": 3395,
+            "country": "US",
+            "sunrise": 1788351226,
+            "sunset": 1788397201
+        },
+        "timezone": -18000,
+        "id": 4736286,
+        "name": "Texas",
+        "cod": 200
+    }
+]
