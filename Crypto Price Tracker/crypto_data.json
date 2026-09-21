@@ -1,0 +1,15 @@
+{
+    "status": "success",
+    "symbols": [
+        {
+            "symbol": "SOL",
+            "last": "117.83",
+            "last_btc": "0.001376588003438",
+            "lowest": "109.25",
+            "highest": "118.16",
+            "date": "2026-09-21 16:50:21",
+            "daily_change_percentage": "6.9917370380459",
+            "source_exchange": "binance"
+        }
+    ]
+}
