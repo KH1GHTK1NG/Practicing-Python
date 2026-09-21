@@ -45,6 +45,11 @@ print("===============================================")
 
 coin = input("Enter the cryptocurrency symbol (e.g., BTC, ETH): ").upper()
 
+CryptoTracker = CryptoPriceTracker(coin)
+CryptoTracker.fetch_data()
+CryptoTracker.display_data()
+CryptoTracker.save_data_to_file("Crypto Price Tracker/crypto_data.json")
+
 """ print("Fetching data...")
 
 response = requests.get(BASE_URL, headers={"Authorization": f"Bearer {API_KEY}"}, params={"symbol": coin})
