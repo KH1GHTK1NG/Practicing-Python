@@ -34,9 +34,6 @@ class CryptoPriceTracker:
         print(f"Highest Price: ${coin_data['highest']}")
         print(f"Lowest Price: ${coin_data['lowest']}")
 
-""" BASE_URL = "https://api.freecryptoapi.com/v1/getData"
-API_KEY = "m8f4czfunum3s9cmlni3" """
-
 
 print("===============================================")
 print("                CRYPTO TRACKER                 ")
@@ -50,19 +47,4 @@ CryptoTracker.fetch_data()
 CryptoTracker.display_data()
 CryptoTracker.save_data_to_file("Crypto Price Tracker/crypto_data.json")
 
-""" print("Fetching data...")
-
-response = requests.get(BASE_URL, headers={"Authorization": f"Bearer {API_KEY}"}, params={"symbol": coin})
-
-data = response.json()
-
-with open("Crypto Price Tracker/crypto_data.json", "w") as file:
-    json.dump(data, file, indent=4)
-
-
-print(f"====={coin}=====")
-print(f"Cryptocurrency: {data['symbols'][0]['symbol']}")
-print(f"Last_Price: ${data['symbols'][0]['last']}")
-print(f"Highest Price: ${data['symbols'][0]['highest']}")
-print(f"Lowest Price: ${data['symbols'][0]['lowest']}") """
 

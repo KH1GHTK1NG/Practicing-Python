@@ -3,12 +3,12 @@
     "symbols": [
         {
             "symbol": "SOL",
-            "last": "117.83",
-            "last_btc": "0.001376588003438",
+            "last": "117.11",
+            "last_btc": "0.0013636496485845",
             "lowest": "109.25",
-            "highest": "118.16",
-            "date": "2026-09-21 16:50:21",
-            "daily_change_percentage": "6.9917370380459",
+            "highest": "119.01",
+            "date": "2026-09-21 21:00:41",
+            "daily_change_percentage": "6.3379642240988",
             "source_exchange": "binance"
         }
     ]
